@@ -1,145 +1,348 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    color: white;
-    font-family: 'Lato', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  user-select: none;
 }
 
-html{
-    background-color: rgb(15, 15, 15);
+html {
+  background-color: rgb(15, 15, 15);
 }
 
-.header{
-    width: 100%;
-    height: 50px;
-    display: flex;
-    justify-content: space-between;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 15px;
-    font-size: 1.5rem;
-    position: sticky;
-    top: 0;
-    background-color: rgb(15, 15, 15);
-    z-index: 5;
+.header {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 15px;
+  font-size: 1.5rem;
+  position: sticky;
+  top: 0;
+  background-color: rgb(15, 15, 15);
+  z-index: 5;
 }
 
-svg{
-    color: white;
-    cursor: pointer;
+svg {
+  color: white;
+  cursor: pointer;
 }
 
-.help{
-    color: white;
-    height: 50px;
+.help {
+  color: white;
+  height: 50px;
 }
 
-.container{
-    display: flex;
-    flex-direction: column;
-    height: 1430px;
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 1430px;
 }
 
-.containercard{
-    width: 90%;
-    margin-left: 5%;
-    background-color: #0F4C75;
-    height: 250px;
-    margin-top: 30px;
-    border-radius: 10px;
-    background: black;
-    position: relative;
-    cursor: pointer;
+.containercard {
+  width: 90%;
+  margin-left: 5%;
+  background-color: #0F4C75;
+  height: 250px;
+  margin-top: 30px;
+  border-radius: 10px;
+  background: black;
+  position: relative;
+  cursor: pointer;
 }
 
-.cardtitle{
-    z-index: 1;
-    position: absolute;
-    width: 100%;
-    text-align: center;
-    top: 45%;
-    font-size: 1.5rem;
+.cardtitle {
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 45%;
+  font-size: 1.5rem;
 }
 
-.cardsubtitle{
-    z-index: 1;
-    position: absolute;
-    width: 100%;
-    text-align: center;
-    top: 58%;
-    font-size: 1rem;
+.cardsubtitle {
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 58%;
+  font-size: 1rem;
 }
 
-.cardimg{
-    background-position: 50%;
-    background-size:cover;
-    opacity: 0.5;
-    height: 250px;
-    border-radius: 10px;
+.cardimg {
+  background-position: 50%;
+  background-size: cover;
+  opacity: 0.5;
+  height: 250px;
+  border-radius: 10px;
 }
-  
-  .burger-wrapper {
-    position: fixed;
-    display: flex;
-    height: 100%;
-    z-index: 6;
+
+.burger-wrapper {
+  position: fixed;
+  display: flex;
+  height: 100%;
+  z-index: 6;
+}
+
+.burger-menu {
+  width: 0;
+  height: 100%;
+  background-color: #151515;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.burger-header {
+  background-color: #151515;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.close-btn {
+  font-size: 30px;
+  cursor: pointer;
+  color: white;
+}
+
+.burger-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.burger-toggle {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 50px;
+  background-color: #444;
+  cursor: pointer;
+}
+
+.burger-toggle .icon {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.menubtn {
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 5px;
+  height: 40px;
+  color: black;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*help*/
+.outerbg {
+  width: 100%;
+  max-width: 610px;
+  margin: 20px;
+  padding: 30px 0;
+  margin: 0 auto;
+  background: url('https://s24.postimg.org/63armx1h1/sahil_sahil_chatsbg.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.chatboxout {
+  font-family: open sans;
+  font-size: 12px;
+  line-height: 17px;
+  box-sizing: border-box;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 10px;
+  background: #fff;
+  border-radius: 5px;
+  -webkit-box-shadow: 4px 4px 20px -1px rgba(59, 59, 59, 0.6);
+  -moz-box-shadow: 4px 4px 20px -1px rgba(59, 59, 59, 0.6);
+  box-shadow: 4px 4px 20px -1px rgba(59, 59, 59, 0.6);
+
+}
+
+.chatboxin {
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 5px 15px;
+
+}
+
+.chat-sender.msg {
+  -webkit-clip-path: polygon(12px 0, 100% 0, 100% 100%, 0 100%, 12px 70%);
+  clip-path: polygon(12px 0, 100% 0, 100% 100%, 0 100%, 12px 70%);
+  padding: 9px 9px;
+  padding-left: 21px;
+  background-color: #5D5D5D;
+  color: #fff;
+  box-sizing: border-box;
+  width: calc(100% - 53px);
+  margin-left: -9px;
+}
+
+.chatmsg {
+  margin-top: 5px;
+}
+
+.black {
+  color: rgb(15, 15, 15);
+}
+
+.chat-sender {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.chat-container {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  animation: fadein 2s;
+  -moz-animation: fadein 2s;
+  /* Firefox */
+  -webkit-animation: fadein 2s;
+  /* Safari and Chrome */
+  -o-animation: fadein 2s;
+  /* Opera */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chat-respond.msg {
+  -webkit-clip-path: polygon(12px 0, 100% 0, 100% 100%, 0 100%, 12px 70%);
+  clip-path: polygon(12px 0, 100% 0, 100% 100%, 0 100%, 12px 70%);
+  padding: 9px 9px;
+  padding-left: 21px;
+  background-color: #E6E6E6;
+  color: #333;
+  box-sizing: border-box;
+  width: calc(100% - 53px);
+  margin-right: -9px;
+  transform: scale(-1, 1);
+  -moz-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+
+}
+
+.chat-respond.msg strong {
+  color: #3282B8;
+}
+
+.chat-respond {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.flippd {
+  width: 100%;
+  transform: scale(-1, 1);
+  -moz-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+}
+
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
   }
-  
-  .burger-menu {
-    width: 0;
-    height: 100%;
-    background-color: #151515;
-    overflow-x: hidden;
-    transition: 0.5s;
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
   }
-  
-  .burger-header {
-    background-color: #151515;
-    padding: 10px;
-    display: flex;
-    justify-content: flex-end;
-  }
-  
-  .close-btn {
-    font-size: 30px;
-    cursor: pointer;
-    color: white;
-  }
-  
-  .burger-links {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .burger-toggle {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    height: 50px;
-    background-color: #444;
-    cursor: pointer;
-  }
-  
-  .burger-toggle .icon {
-    font-size: 24px;
-    margin-right: 10px;
+}
+
+@-moz-keyframes fadein {
+
+  /* Firefox */
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
   }
 
-  .menubtn{
-    width: 80%;
-    margin-left: 10%;
-    margin-bottom: 5px;
-    height: 40px;
-    color: black;
-    font-size: 1rem;
-    letter-spacing: 1px;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@-webkit-keyframes fadein {
+
+  /* Safari and Chrome */
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
   }
 
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
 
+@-o-keyframes fadein {
+
+  /* Opera */
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.new-question {
+  margin-bottom: 20px;
+}
+
+.new-question input {
+  padding: 5px;
+  width: 80%;
+  margin-left: 10%;
+  color: rgb(15, 15, 15);
+  border: none;
+  border-radius: 5px;
+  background-color: #E6E6E6;
+}
+
+input:focus {
+  outline: none;
+}
+
+.new-question button {
+  margin-left: 30%;
+  width: 40%;
+  color: rgb(15, 15, 15);
+  padding: 5px;
+  margin-top: 10px;
+  letter-spacing: 1px;
+  border: none;
+  border-radius: 10px;
+  background-color: #E6E6E6;
+}
