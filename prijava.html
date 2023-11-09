@@ -150,7 +150,7 @@
 
         <div class="tabs-content">
           <div id="signup-tab-content" class="active">
-            <form class="signup-form" action="" method="post">
+            <form class="signup-form">
               <input
                 type="email"
                 class="input"
@@ -168,11 +168,16 @@
               <input
                 type="password"
                 class="input"
-                id="user_pass"
+                id="user_pass_register"
                 autocomplete="off"
                 placeholder="Lozinka"
               />
-              <input type="submit" class="button" value="Registruj se" />
+              <input
+                readonly
+                onclick="register()"
+                class="button"
+                value="Registruj se"
+              />
             </form>
             <!--.login-form-->
             <div class="help-text">
@@ -184,7 +189,7 @@
           <!--.signup-tab-content-->
 
           <div id="login-tab-content">
-            <form class="login-form" action="" method="post">
+            <form class="login-form">
               <input
                 type="text"
                 class="input"
@@ -202,7 +207,12 @@
               <input type="checkbox" class="checkbox" id="remember_me" />
               <label for="remember_me">Zapamti me</label>
 
-              <input type="submit" class="button" value="Prijavi se" />
+              <input
+                readonly
+                onclick="login()"
+                class="button"
+                value="Prijavi se"
+              />
             </form>
             <!--.login-form-->
             <div class="help-text">
