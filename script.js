@@ -86,3 +86,27 @@ jQuery(document).ready(function ($) {
     $(tab_content).addClass("active");
   });
 });
+
+var userNameLogin = document.getElementById("user_login");
+var htmlFilePath;
+
+function login() {
+  if (userNameLogin.value == "user") {
+    htmlFilePath = "./User/user.html";
+    window.location.href = htmlFilePath;
+  } else if (userNameLogin.value == "manager") {
+    htmlFilePath = "./Manager/manager.html";
+    window.location.href = htmlFilePath;
+  } else if (userNameLogin.value == "admin") {
+    htmlFilePath = "./Admin/admin.html";
+    window.location.href = htmlFilePath;
+  } else {
+    alert("Pogrešan Email/Korisničko ime ili lozinka!");
+  }
+}
+
+function register() {
+  alert("Uspješno ste napravili account!");
+  htmlFilePath = "./User/user.html";
+  window.location.href = htmlFilePath;
+}
