@@ -145,7 +145,8 @@ svg {
   margin-left: 10%;
   margin-bottom: 5px;
   height: 40px;
-  color: black;
+  color: white;
+  background-color: #0f4c75;
   font-size: 1rem;
   letter-spacing: 1px;
   border: none;
@@ -160,6 +161,7 @@ a {
   color: #666;
   text-decoration: none;
 }
+
 a:hover {
   color: #323232;
 }
@@ -175,13 +177,16 @@ input {
   -webkit-box-shadow: 0px 1px 8px #0f4c75;
   -moz-box-shadow: 0px 1px 8px #bebebe;
 }
+
 .form-wrap .tabs {
   overflow: hidden;
 }
+
 .form-wrap .tabs h3 {
   float: left;
   width: 50%;
 }
+
 .form-wrap .tabs h3 a {
   padding: 0.5em 0;
   text-align: center;
@@ -190,19 +195,24 @@ input {
   display: block;
   color: #666;
 }
+
 .form-wrap .tabs h3 a.active {
   background-color: #0f4c75;
   color: white;
 }
+
 .form-wrap .tabs-content {
   padding: 1.5em;
 }
+
 .form-wrap .tabs-content div[id$="tab-content"] {
   display: none;
 }
+
 .form-wrap .tabs-content .active {
   display: block !important;
 }
+
 .form-wrap form .input {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -216,6 +226,7 @@ input {
   padding-right: 2em;
   width: 100%;
 }
+
 .form-wrap form .button {
   width: 100%;
   padding: 0.8em 0 10px 0.8em;
@@ -224,22 +235,27 @@ input {
   color: #fff;
   cursor: pointer;
   text-transform: uppercase;
+  text-align: center;
 }
+
 .form-wrap form .checkbox {
   visibility: hidden;
   padding: 20px;
   margin: 0.5em 0 1.5em;
 }
-.form-wrap form .checkbox:checked + label:after {
+
+.form-wrap form .checkbox:checked+label:after {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
   filter: alpha(opacity=100);
   opacity: 1;
 }
+
 .form-wrap form label[for] {
   position: relative;
   padding-left: 20px;
   cursor: pointer;
 }
+
 .form-wrap form label[for]:before {
   content: "";
   position: absolute;
@@ -249,6 +265,7 @@ input {
   top: 0px;
   left: -14px;
 }
+
 .form-wrap form label[for]:after {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
   filter: alpha(opacity=0);
@@ -269,9 +286,11 @@ input {
   -ms-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }
+
 .form-wrap .help-text {
   margin-top: 0.6em;
 }
+
 .form-wrap .help-text p {
   text-align: center;
   font-size: 14px;

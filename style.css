@@ -5,6 +5,11 @@
   color: white;
   font-family: 'Lato', sans-serif;
   user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+a {
+  text-decoration: none;
 }
 
 html {
@@ -54,7 +59,7 @@ svg {
   cursor: pointer;
 }
 
-.itemcard{
+.itemcard {
   width: 90%;
   margin-left: 5%;
   background-color: #0F4C75;
@@ -75,7 +80,7 @@ svg {
   font-size: 1.5rem;
 }
 
-.itemtitle{
+.itemtitle {
   z-index: 1;
   position: absolute;
   width: 100%;
@@ -101,7 +106,7 @@ svg {
   border-radius: 10px;
 }
 
-.itemimg{
+.itemimg {
   background-position: 50%;
   background-size: cover;
   opacity: 0.5;
@@ -163,7 +168,8 @@ svg {
   margin-left: 10%;
   margin-bottom: 5px;
   height: 40px;
-  color: black;
+  color: white;
+  background-color: #0f4c75;
   font-size: 1rem;
   letter-spacing: 1px;
   border: none;
@@ -378,13 +384,47 @@ input:focus {
   background-color: #E6E6E6;
 }
 
-.iteminfo{
+.iteminfo {
   display: flex;
   justify-content: space-around;
   align-items: center;
   height: 75px;
 }
 
-.locationinfo{
+.locationinfo {
   display: flex;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+}
+
+.AboutUs {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  font-size: 3rem;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+
+.aboutText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 1.2rem;
+  background-color: rgba(255, 255, 255, 0.032);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.aboutText p {
+  font-size: 1.4rem;
 }
