@@ -3,8 +3,8 @@
   padding: 0;
   box-sizing: border-box;
   color: white;
-  font-family: 'Nunito', sans-serif;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   user-select: none;
   -webkit-tap-highlight-color: transparent;
 }
@@ -20,16 +20,30 @@ html {
 .header {
   width: 100%;
   height: 50px;
+  position: sticky;
+  top: 0;
+  background-color: rgb(15, 15, 15);
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+}
+
+.header2 {
   display: flex;
   justify-content: space-between;
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 15px;
   font-size: 1.5rem;
-  position: sticky;
-  top: 0;
-  background-color: rgb(15, 15, 15);
-  z-index: 5;
+  height: 50px;
+}
+
+#slider {
+  height: 4px;
+  background: #ebe3d5;
+  width: 0%;
+  max-width: 100%;
+  border-radius: 10px;
 }
 
 svg {
@@ -51,7 +65,7 @@ svg {
 .containercard {
   width: 90%;
   margin-left: 5%;
-  background-color: #0F4C75;
+  background-color: #0f4c75;
   height: 250px;
   margin-top: 30px;
   border-radius: 10px;
@@ -63,7 +77,7 @@ svg {
 .itemcard {
   width: 90%;
   margin-left: 5%;
-  background-color: #0F4C75;
+  background-color: #0f4c75;
   height: 275px;
   margin-top: 30px;
   border-radius: 10px;
@@ -114,11 +128,11 @@ svg {
   height: 200px;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
-
 }
 
 .burger-wrapper {
   position: fixed;
+  top: 0;
   display: flex;
   height: 100%;
   z-index: 6;
@@ -170,7 +184,7 @@ svg {
   margin-bottom: 5px;
   height: 40px;
   color: black;
-  background-color: #EBE3D5;
+  background-color: #ebe3d5;
   font-size: 1rem;
   letter-spacing: 1px;
   border: none;
@@ -200,7 +214,7 @@ svg {
   margin: 20px;
   padding: 30px 0;
   margin: 0 auto;
-  background: url('https://s24.postimg.org/63armx1h1/sahil_sahil_chatsbg.png');
+  background: url("https://s24.postimg.org/63armx1h1/sahil_sahil_chatsbg.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -218,14 +232,12 @@ svg {
   -webkit-box-shadow: 4px 4px 20px -1px rgba(59, 59, 59, 0.6);
   -moz-box-shadow: 4px 4px 20px -1px rgba(59, 59, 59, 0.6);
   box-shadow: 4px 4px 20px -1px rgba(59, 59, 59, 0.6);
-
 }
 
 .chatboxin {
   box-sizing: border-box;
   border-radius: 5px;
   padding: 5px 15px;
-
 }
 
 .chat-sender.msg {
@@ -233,7 +245,7 @@ svg {
   clip-path: polygon(12px 0, 100% 0, 100% 100%, 0 100%, 12px 70%);
   padding: 9px 9px;
   padding-left: 21px;
-  background-color: #776B5D;
+  background-color: #776b5d;
   color: #fff;
   box-sizing: border-box;
   width: calc(100% - 53px);
@@ -273,7 +285,7 @@ svg {
   clip-path: polygon(12px 0, 100% 0, 100% 100%, 0 100%, 12px 70%);
   padding: 9px 9px;
   padding-left: 21px;
-  background-color: #EBE3D5;
+  background-color: #ebe3d5;
   color: #333;
   box-sizing: border-box;
   width: calc(100% - 53px);
@@ -283,7 +295,6 @@ svg {
   -webkit-transform: scale(-1, 1);
   -o-transform: scale(-1, 1);
   -ms-transform: scale(-1, 1);
-
 }
 
 .chat-respond.msg strong {
@@ -305,7 +316,6 @@ svg {
   -ms-transform: scale(-1, 1);
 }
 
-
 @keyframes fadein {
   from {
     opacity: 0;
@@ -321,7 +331,6 @@ svg {
 }
 
 @-moz-keyframes fadein {
-
   /* Firefox */
   from {
     opacity: 0;
@@ -337,7 +346,6 @@ svg {
 }
 
 @-webkit-keyframes fadein {
-
   /* Safari and Chrome */
   from {
     opacity: 0;
@@ -353,7 +361,6 @@ svg {
 }
 
 @-o-keyframes fadein {
-
   /* Opera */
   from {
     opacity: 0;
@@ -379,7 +386,7 @@ svg {
   color: rgb(15, 15, 15);
   border: none;
   border-radius: 5px;
-  background-color: #EBE3D5;
+  background-color: #ebe3d5;
 }
 
 input:focus {
@@ -389,13 +396,13 @@ input:focus {
 .new-question button {
   margin-left: 30%;
   width: 40%;
-  color: #EBE3D5;
+  color: #ebe3d5;
   padding: 5px;
   margin-top: 10px;
   letter-spacing: 1px;
   border: none;
   border-radius: 10px;
-  background-color: #776B5D;
+  background-color: #776b5d;
   font-weight: bold;
 }
 
@@ -423,6 +430,7 @@ input:focus {
   font-size: 3rem;
   font-weight: bolder;
   letter-spacing: 2px;
+  color: #ebe3d5;
 }
 
 .aboutText {
@@ -435,11 +443,12 @@ input:focus {
   margin-top: 50px;
   margin-bottom: 50px;
   font-size: 1.2rem;
-  background-color: rgba(255, 255, 255, 0.032);
+  background-color: #ebe3d5;
   border-radius: 10px;
   padding: 20px;
 }
 
 .aboutText p {
   font-size: 1.4rem;
+  color: #151515;
 }
