@@ -1,3 +1,16 @@
+window.onscroll = () => {
+  funkcija();
+};
+
+function funkcija() {
+  var pocetna = document.documentElement.scrollTop;
+  var visinaGl =
+    document.documentElement.scrollHeight -
+    document.documentElement.clientHeight;
+  var skrolano = (pocetna / visinaGl) * 100;
+  document.getElementById("slider").style.width = skrolano + "%";
+}
+
 document.addEventListener("DOMContentLoaded", function () {
   const burgerMenu = document.querySelector(".burger-menu");
   const toggleButton = document.querySelector("#menuicon");
