@@ -3,7 +3,8 @@
   padding: 0;
   box-sizing: border-box;
   color: white;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   user-select: none;
   -webkit-tap-highlight-color: transparent;
 }
@@ -168,8 +169,8 @@ svg {
   margin-left: 10%;
   margin-bottom: 5px;
   height: 40px;
-  color: white;
-  background-color: #0f4c75;
+  color: black;
+  background-color: #EBE3D5;
   font-size: 1rem;
   letter-spacing: 1px;
   border: none;
@@ -178,6 +179,18 @@ svg {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+}
+
+.svgIcon {
+  position: absolute;
+  left: 10%;
+}
+
+.menuP {
+  position: absolute;
+  left: 40%;
+  color: black;
 }
 
 /*help*/
@@ -220,7 +233,7 @@ svg {
   clip-path: polygon(12px 0, 100% 0, 100% 100%, 0 100%, 12px 70%);
   padding: 9px 9px;
   padding-left: 21px;
-  background-color: #5D5D5D;
+  background-color: #776B5D;
   color: #fff;
   box-sizing: border-box;
   width: calc(100% - 53px);
@@ -260,7 +273,7 @@ svg {
   clip-path: polygon(12px 0, 100% 0, 100% 100%, 0 100%, 12px 70%);
   padding: 9px 9px;
   padding-left: 21px;
-  background-color: #E6E6E6;
+  background-color: #EBE3D5;
   color: #333;
   box-sizing: border-box;
   width: calc(100% - 53px);
@@ -274,7 +287,8 @@ svg {
 }
 
 .chat-respond.msg strong {
-  color: #3282B8;
+  color: rgba(20, 19, 19, 0.874);
+  font-weight: bolder;
 }
 
 .chat-respond {
@@ -365,7 +379,7 @@ svg {
   color: rgb(15, 15, 15);
   border: none;
   border-radius: 5px;
-  background-color: #E6E6E6;
+  background-color: #EBE3D5;
 }
 
 input:focus {
@@ -375,13 +389,14 @@ input:focus {
 .new-question button {
   margin-left: 30%;
   width: 40%;
-  color: rgb(15, 15, 15);
+  color: #EBE3D5;
   padding: 5px;
   margin-top: 10px;
   letter-spacing: 1px;
   border: none;
   border-radius: 10px;
-  background-color: #E6E6E6;
+  background-color: #776B5D;
+  font-weight: bold;
 }
 
 .iteminfo {
