@@ -145,8 +145,8 @@ svg {
   margin-left: 10%;
   margin-bottom: 5px;
   height: 40px;
-  color: white;
-  background-color: #0f4c75;
+  color: black;
+  background-color: #EBE3D5;
   font-size: 1rem;
   letter-spacing: 1px;
   border: none;
@@ -155,7 +155,20 @@ svg {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
+
+.svgIcon {
+  position: absolute;
+  left: 10%;
+}
+
+.menuP {
+  position: absolute;
+  left: 40%;
+  color: black;
+}
+
 
 a {
   color: #666;
@@ -173,9 +186,9 @@ input {
 .form-wrap {
   background-color: rgb(25, 25, 25);
   width: 320px;
-  box-shadow: 0px 1px 8px #bebebe;
-  -webkit-box-shadow: 0px 1px 8px #0f4c75;
-  -moz-box-shadow: 0px 1px 8px #bebebe;
+  -webkit-box-shadow: 0px 0px 10px 4px #bebebe;
+  -moz-box-shadow: 0px 0px 10px 4px #B0A695;
+  box-shadow: 0px 0px 10px 4px #bebebe;
 }
 
 .form-wrap .tabs {
@@ -191,13 +204,13 @@ input {
   padding: 0.5em 0;
   text-align: center;
   font-weight: 400;
-  background-color: #e6e7e8;
+  background-color: #F3EEEA;
   display: block;
   color: #666;
 }
 
 .form-wrap .tabs h3 a.active {
-  background-color: #0f4c75;
+  background-color: #776B5D;
   color: white;
 }
 
@@ -219,6 +232,7 @@ input {
   color: rgb(15, 15, 15);
   font-family: inherit;
   padding: 0.8em 0 10px 0.8em;
+  background-color: #F3EEEA;
   border: 1px solid #cfcfcf;
   outline: 0;
   display: inline-block;
@@ -230,7 +244,7 @@ input {
 .form-wrap form .button {
   width: 100%;
   padding: 0.8em 0 10px 0.8em;
-  background-color: #3282b8;
+  background-color: #B0A695;
   border: none;
   color: #fff;
   cursor: pointer;
@@ -277,7 +291,7 @@ input {
   background-color: transparent;
   top: 4px;
   left: -10px;
-  border: 3px solid #0f4c75;
+  border: 3px solid #B0A695;
   border-top: none;
   border-right: none;
   -webkit-transform: rotate(-45deg);
