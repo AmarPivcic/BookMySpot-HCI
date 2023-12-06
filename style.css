@@ -427,10 +427,11 @@ input:focus {
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
-  font-size: 3rem;
+  font-size: 1.8rem;
   font-weight: bolder;
   letter-spacing: 2px;
   color: #ebe3d5;
+  text-transform: uppercase;
 }
 
 .aboutText {
@@ -451,4 +452,120 @@ input:focus {
 .aboutText p {
   font-size: 1.4rem;
   color: #151515;
+}
+
+/*--------------------------------- SETTINGS STYLES -----------------------------------*/
+
+.checkboxPrijavljen {
+  position: relative;
+  padding-left: 20px;
+}
+
+#checkBoxNovi {
+  position: absolute;
+  right: 20px;
+  top: 25%;
+}
+
+input[type="checkbox"] {
+  accent-color: #b0a695;
+  width: 15px;
+  height: 15px;
+}
+
+input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #333;
+  border-radius: 4px;
+}
+
+/* Custom checkbox checkmark color */
+input[type="checkbox"]:checked {
+  background-color: #b0a695; /* Change this to the desired color */
+}
+
+input[type="checkbox"]:checked::before {
+  content: "\2713"; /* Checkmark character */
+  display: block;
+  text-align: center;
+  line-height: 18px;
+  color: white; /* Change this to the desired color */
+}
+
+.checkboxPrijavljen p {
+  font-size: 0.7rem;
+}
+
+.checkboxPrijavljen label {
+  font-size: 1.2rem;
+}
+
+.promjenaLozinke,
+.promjenaTeme,
+.usloviKoristenja,
+.politikaPrivatnosti,
+.odjava {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #b0a695;
+  border-radius: 5px;
+  height: 35px;
+}
+
+.usloviKoristenja,
+.politikaPrivatnosti {
+  justify-content: space-between;
+}
+
+.lozinkaITema {
+  background-color: #b0a695;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+
+.promjenaLozinke p,
+.promjenaTeme p,
+.odjava p {
+  font-size: 1.3rem;
+  color: black;
+}
+
+.odjava p {
+  font-weight: bolder;
+}
+
+.usloviKoristenja p,
+.politikaPrivatnosti p {
+  font-size: 1rem;
+  color: black;
+  margin-left: 20px;
+}
+
+.svg_ovi {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80px;
+}
+
+.settingsNaslov {
+  font-size: 1.8rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  margin-top: 30px;
+  margin-bottom: 50px;
 }
