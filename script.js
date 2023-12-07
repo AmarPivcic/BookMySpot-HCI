@@ -123,3 +123,69 @@ function register() {
   htmlFilePath = "./User/user.html";
   window.location.href = htmlFilePath;
 }
+
+var fnameBtn = document.getElementById("fnameBtn");
+var lnameBtn = document.getElementById("lnameBtn");
+var usernameBtn = document.getElementById("usernameBtn");
+var mailBtn = document.getElementById("mailBtn");
+var phoneBtn = document.getElementById("phoneBtn");
+var passBtn = document.getElementById("passBtn");
+var fnameInput = document.getElementById("fnameInput");
+var lnameInput = document.getElementById("lnameInput");
+var usernameInput = document.getElementById("usernameInput");
+var mailInput = document.getElementById("mailInput");
+var phoneInput = document.getElementById("phoneInput");
+var passInput = document.getElementById("passInput");
+
+
+
+fnameBtn.addEventListener('click', function() {
+  if(fnameInput.readOnly)
+  {
+    fnameInput.readOnly = !fnameInput.readOnly;
+    fnameInput.value="";
+  }
+});
+
+lnameBtn.addEventListener('click', function() {
+  if(lnameInput.readOnly)
+  {
+    lnameInput.readOnly = !lnameInput.readOnly;
+    lnameInput.value="";
+  } 
+});
+
+usernameBtn.addEventListener('click', function() {
+  if(usernameInput.readOnly)
+  {
+    usernameInput.readOnly = !usernameInput.readOnly;
+    usernameInput.value="";
+  }
+});
+
+mailBtn.addEventListener('click', function() {
+  // if(mailInput.readOnly)
+  // {
+  //   mailInput.readOnly = !mailInput.readOnly;
+  //   mailInput.value="";
+  // }
+  mailBtn.style.backgroundColor="red";
+});
+
+phoneBtn.addEventListener('click', function() {
+  if(phoneInput.readOnly)
+  {
+    phoneInput.readOnly = !phoneInput.readOnly;
+    phoneInput.value="";
+  }
+});
+
+passBtn.addEventListener('click', function() {
+  if(passInput.readOnly)
+  {
+    passInput.readOnly = !passInput.readOnly;
+    passInput.value="";
+  }
+});
+
+
