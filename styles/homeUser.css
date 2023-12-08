@@ -124,7 +124,7 @@ summary::-webkit-details-marker {
 }
 
 details[open] summary:before {
-  content: '';
+  content: "";
   display: block;
   width: 100vw;
   height: 100vh;
@@ -135,17 +135,17 @@ details[open] summary:before {
 }
 
 summary:after {
-  content: '';
+  content: "";
   display: inline-block;
   float: right;
-  width: .5rem;
-  height: .5rem;
+  width: 0.5rem;
+  height: 0.5rem;
   border-bottom: 1px solid currentColor;
   border-left: 1px solid currentColor;
   border-bottom-left-radius: 2px;
   transform: rotate(45deg) translate(50%, 0%);
   transform-origin: center center;
-  transition: transform ease-in-out 100ms
+  transition: transform ease-in-out 100ms;
 }
 
 summary:focus {
@@ -160,7 +160,7 @@ ul {
   width: 100%;
   background: #b0a695;
   position: absolute;
-  top: calc(100% + .5rem);
+  top: calc(100% + 0.5rem);
   left: 0;
   padding: 0.8rem;
   margin: 0;
@@ -196,18 +196,18 @@ summary.radios:before {
   content: var(--selection);
 }
 
-input[type=radio] {
+input[type="radio"] {
   counter-increment: radios;
   appearance: none;
   display: none;
 }
 
-input[type=radio]:checked {
+input[type="radio"]:checked {
   display: inline;
   --display: block;
 }
 
-input[type=radio]:after {
+input[type="radio"]:after {
   content: attr(title);
   display: inline;
   font-size: 0.9rem;
@@ -269,4 +269,13 @@ input:focus {
 
 ::placeholder {
   color: white;
+}
+
+#srceFavorit,
+.srcad {
+  z-index: 1;
+  position: absolute;
+  text-align: center;
+  top: 0%;
+  font-size: 1.5rem;
 }

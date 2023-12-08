@@ -1,8 +1,18 @@
+.titleFaq {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.8rem;
+  letter-spacing: 2px;
+  color: #ebe3d5;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
 .outerbg {
   width: 100%;
   max-width: 610px;
   margin: 20px;
-  padding: 30px 0;
   margin: 0 auto;
   background: url("https://s24.postimg.org/63armx1h1/sahil_sahil_chatsbg.png");
   background-repeat: no-repeat;
@@ -121,6 +131,7 @@
 }
 
 @-moz-keyframes fadein {
+
   /* Firefox */
   from {
     opacity: 0;
@@ -136,6 +147,7 @@
 }
 
 @-webkit-keyframes fadein {
+
   /* Safari and Chrome */
   from {
     opacity: 0;
@@ -151,6 +163,7 @@
 }
 
 @-o-keyframes fadein {
+
   /* Opera */
   from {
     opacity: 0;
@@ -195,6 +208,3 @@ input:focus {
   background-color: #776b5d;
   font-weight: bold;
 }
-
-
-

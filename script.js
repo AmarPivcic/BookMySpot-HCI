@@ -137,55 +137,53 @@ var mailInput = document.getElementById("mailInput");
 var phoneInput = document.getElementById("phoneInput");
 var passInput = document.getElementById("passInput");
 
-
-
-fnameBtn.addEventListener('click', function() {
-  if(fnameInput.readOnly)
-  {
+fnameBtn.addEventListener("click", function () {
+  if (fnameInput.readOnly) {
     fnameInput.readOnly = !fnameInput.readOnly;
-    fnameInput.value="";
+    fnameInput.value = "";
   }
 });
 
-lnameBtn.addEventListener('click', function() {
-  if(lnameInput.readOnly)
-  {
+lnameBtn.addEventListener("click", function () {
+  if (lnameInput.readOnly) {
     lnameInput.readOnly = !lnameInput.readOnly;
-    lnameInput.value="";
-  } 
-});
-
-usernameBtn.addEventListener('click', function() {
-  if(usernameInput.readOnly)
-  {
-    usernameInput.readOnly = !usernameInput.readOnly;
-    usernameInput.value="";
+    lnameInput.value = "";
   }
 });
 
-mailBtn.addEventListener('click', function() {
+usernameBtn.addEventListener("click", function () {
+  if (usernameInput.readOnly) {
+    usernameInput.readOnly = !usernameInput.readOnly;
+    usernameInput.value = "";
+  }
+});
+
+mailBtn.addEventListener("click", function () {
   // if(mailInput.readOnly)
   // {
   //   mailInput.readOnly = !mailInput.readOnly;
   //   mailInput.value="";
   // }
-  mailBtn.style.backgroundColor="red";
+  mailBtn.style.backgroundColor = "red";
 });
 
-phoneBtn.addEventListener('click', function() {
-  if(phoneInput.readOnly)
-  {
+phoneBtn.addEventListener("click", function () {
+  if (phoneInput.readOnly) {
     phoneInput.readOnly = !phoneInput.readOnly;
-    phoneInput.value="";
+    phoneInput.value = "";
   }
 });
 
-passBtn.addEventListener('click', function() {
-  if(passInput.readOnly)
-  {
+passBtn.addEventListener("click", function () {
+  if (passInput.readOnly) {
     passInput.readOnly = !passInput.readOnly;
-    passInput.value="";
+    passInput.value = "";
   }
 });
 
+//Favoritanje
 
+function Klik() {
+  document.querySelector("#srceFavorit").innerHTML = "<p>❤️</p>";
+  tuSam = false;
+}
