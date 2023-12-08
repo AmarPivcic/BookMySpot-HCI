@@ -1,0 +1,84 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+  }
+  
+  .containercard {
+    width: 90%;
+    margin-left: 5%;
+    background-color: #0f4c75;
+    height: 250px;
+    margin-top: 30px;
+    border-radius: 10px;
+    background: black;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .itemcard {
+    width: 90%;
+    margin-left: 5%;
+    background-color: #0f4c75;
+    height: 275px;
+    margin-top: 30px;
+    border-radius: 10px;
+    background: black;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .cardtitle {
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 45%;
+    font-size: 1.5rem;
+  }
+  
+  .itemtitle {
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 35%;
+    font-size: 1.5rem;
+  }
+  
+  .cardsubtitle {
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 58%;
+    font-size: 1rem;
+  }
+  
+  .cardimg {
+    background-position: 50%;
+    background-size: cover;
+    opacity: 0.5;
+    height: 250px;
+    border-radius: 10px;
+  }
+  
+  .itemimg {
+    background-position: 50%;
+    background-size: cover;
+    opacity: 0.5;
+    height: 200px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+
+  .iteminfo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+  }
+  
+  .locationinfo {
+    display: flex;
+  }  

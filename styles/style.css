@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: "Nunito", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  background-color: rgb(15, 15, 15);
+}
+
+.header {
+  width: 100%;
+  height: 50px;
+  position: sticky;
+  top: 0;
+  background-color: rgb(15, 15, 15);
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+}
+
+.header2 {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 15px;
+  font-size: 1.5rem;
+  height: 50px;
+}
+
+#slider {
+  height: 4px;
+  background: #ebe3d5;
+  width: 0%;
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+svg {
+  color: white;
+  cursor: pointer;
+}
+
+.help {
+  color: white;
+  height: 50px;
+}
+
+.burger-wrapper {
+  position: fixed;
+  top: 0;
+  display: flex;
+  height: 100%;
+  z-index: 6;
+}
+
+.burger-menu {
+  width: 0;
+  height: 100%;
+  background-color: #151515;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.burger-header {
+  background-color: #151515;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.close-btn {
+  font-size: 30px;
+  cursor: pointer;
+  color: white;
+}
+
+.burger-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.burger-toggle {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 50px;
+  background-color: #444;
+  cursor: pointer;
+}
+
+.burger-toggle .icon {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.menubtn {
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 5px;
+  height: 40px;
+  color: black;
+  background-color: #ebe3d5;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.svgIcon {
+  position: absolute;
+  left: 10%;
+  top: 25%;
+}
+
+.menuP {
+  position: absolute;
+  text-align: center; /*prije je bilo left: 40%;*/
+  color: black;
+}
