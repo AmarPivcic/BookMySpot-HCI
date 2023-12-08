@@ -276,6 +276,6 @@ input:focus {
   z-index: 1;
   position: absolute;
   text-align: center;
-  top: 0%;
+  top: 60%;
   font-size: 1.5rem;
 }
