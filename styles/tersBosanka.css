@@ -138,6 +138,13 @@
   border-bottom: dashed;
   color: black;
   margin-bottom: 10px;
+  width: 100%;
+}
+
+.SezonskeCijene {
+  color: black;
+  margin-bottom: 10px;
+  width: 100%;
 }
 
 .VansezonskeCijene table {
@@ -159,6 +166,10 @@ th,
 .tabelaSezonske td,
 th {
   color: black;
+}
+
+.tabelaSezonske {
+  width: 100%;
 }
 
 .divZaZapocniRezervaciju {
