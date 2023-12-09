@@ -188,3 +188,31 @@ function Klik() {
   document.querySelector("#srceFavorit").innerHTML = "<p>❤️</p>";
   tuSam = false;
 }
+
+function promjeniBoju1() {
+  var userBoja = document.querySelector(".userButton");
+  var managerBoja = document.querySelector(".managerButton");
+  userBoja.style.backgroundColor = " rgb(8, 160, 8)";
+  managerBoja.style.backgroundColor = "rgb(165, 54, 54)";
+}
+
+function promjeniBoju2() {
+  var userBoja = document.querySelector(".userButton");
+  var managerBoja = document.querySelector(".managerButton");
+  userBoja.style.backgroundColor = " rgb(165, 54, 54)";
+  managerBoja.style.backgroundColor = "rgb(8, 160, 8)";
+}
+
+function promjeniBoju3() {
+  var userBoja = document.querySelector(".userButton1");
+  var managerBoja = document.querySelector(".managerButton2");
+  userBoja.style.backgroundColor = " rgb(8, 160, 8)";
+  managerBoja.style.backgroundColor = "rgb(165, 54, 54)";
+}
+
+function promjeniBoju4() {
+  var userBoja = document.querySelector(".userButton1");
+  var managerBoja = document.querySelector(".managerButton2");
+  userBoja.style.backgroundColor = " rgb(165, 54, 54)";
+  managerBoja.style.backgroundColor = "rgb(8, 160, 8)";
+}
