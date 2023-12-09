@@ -1,0 +1,188 @@
+.titleHotel {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+  color: #ebe3d5;
+}
+
+.titleIRatingHotel {
+  text-align: center;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  margin-top: 20px;
+}
+
+/* Make the images invisible by default */
+.Containers {
+  display: none;
+}
+
+/* forward & Back buttons */
+.Back,
+.forward {
+  cursor: pointer;
+  position: absolute;
+  top: 48%;
+  width: auto;
+  margin-top: -23px;
+  padding: 10px;
+  color: grey;
+  font-weight: bold;
+  font-size: 19px;
+  transition: 0.4s ease;
+  border-radius: 0 5px 5px 0;
+  user-select: none;
+}
+
+/* Place the "forward button" to the right */
+.forward {
+  right: 0;
+  border-radius: 4px 0 0 4px;
+}
+
+/*when the user hovers,add a black background with some little opacity */
+.Back:hover,
+.forward:hover {
+  background-color: #b0a69556;
+}
+
+/* Content */
+.info {
+  color: #f2f2f3;
+  font-size: 14px;
+  padding: 10px 14px;
+  position: absolute;
+  top: 0;
+}
+
+/* The circles or bullets indicators */
+.dots {
+  cursor: pointer;
+  height: 16px;
+  width: 16px;
+  margin: 0 3px;
+  background: linear-gradient(92.18deg, #b0a695 -25.78%, #776b5d 123.02%);
+  opacity: 0.3;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.5s ease;
+}
+
+.enable,
+.dots:hover {
+  background: linear-gradient(92.18deg, #b0a695 -25.78%, #776b5d 123.02%);
+  opacity: 1;
+}
+
+/* Faint animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.4s;
+  animation-name: fade;
+  animation-duration: 1.4s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.5;
+  }
+
+  to {
+    opacity: 2;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.5;
+  }
+
+  to {
+    opacity: 2;
+  }
+}
+
+.Cjenovnik {
+  display: flex;
+  flex-direction: column;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  background-color: #ebe3d5;
+  margin-top: 20px;
+  width: 90%;
+}
+
+.Cjenovnik p {
+  font-size: 1rem;
+  color: #151515;
+}
+
+.Cjenovnik h3 {
+  color: black;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.VansezonskeCijene {
+  border-bottom: dashed;
+  color: black;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.SezonskeCijene {
+  color: black;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.VansezonskeCijene table {
+  margin-bottom: 10px;
+}
+
+.tabelaVanSezonske,
+.tabelaSezonske {
+  text-align: center;
+}
+
+.VansezonskeCijene,
+.SezonskeCijene {
+  padding: 10px;
+}
+
+.tabelaVanSezonske td,
+th,
+.tabelaSezonske td,
+th {
+  color: black;
+}
+
+.tabelaSezonske {
+  width: 100%;
+}
+
+.divZaZapocniRezervaciju {
+  display: flex;
+  justify-content: center;
+}
+
+.dugmicZapocni {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #ebe3d5;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: #151515;
+}
