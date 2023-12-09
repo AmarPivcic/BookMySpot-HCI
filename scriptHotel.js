@@ -45,3 +45,34 @@ function showPopUp() {
   body.classList.add("stop-scrolling");
   window.scrollTo(0, 0);
 }
+
+
+function closepopupCjenovnik() {
+  var blur = document.getElementById("blurCjenovnik");
+  var body = document.getElementById("body");
+  blur.classList.add("hiddenCjenovnik");
+  body.classList.remove("stop-scrolling");
+}
+function showPopUpCjenovnik() {
+  var blur = document.getElementById("blurCjenovnik");
+  var body = document.getElementById("body");
+
+  blur.classList.remove("hiddenCjenovnik");
+  body.classList.add("stop-scrolling");
+  window.scrollTo(0, 0);
+}
+
+function closepopupObrve() {
+  var blur = document.getElementById("blurObrve");
+  var body = document.getElementById("body");
+  blur.classList.add("hiddenObrve");
+  body.classList.remove("stop-scrolling");
+}
+function showPopUpObrve() {
+  var blur = document.getElementById("blurObrve");
+  var body = document.getElementById("body");
+
+  blur.classList.remove("hiddenObrve");
+  body.classList.add("stop-scrolling");
+  window.scrollTo(0, 0);
+}

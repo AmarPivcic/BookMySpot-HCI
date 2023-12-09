@@ -294,7 +294,9 @@ label {
   color: #151515;
 }
 
-.blur {
+.blur,
+.blurCjenovnik,
+.blurObrve {
   position: absolute;
   height: 100vh;
   width: 100%;
@@ -304,11 +306,25 @@ label {
   backdrop-filter: blur(10px);
   z-index: 1;
 }
+
 .checkmark {
   color: #151515;
   height: 45px;
   width: 45px;
   margin-bottom: 25px;
+}
+
+.popupCjenovnik,
+.popupObrve {
+  height: 250px;
+  width: 350px;
+  background-color: #776b5d;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
 }
 
 .popup {
@@ -322,14 +338,26 @@ label {
   align-items: center;
 }
 
+.popupCjenovnik td,
+.popupObrve td {
+  color: white;
+}
+
+.popupCjenovnik th,
+.popupObrve th {
+  color: white;
+}
+
 .popuptext {
   color: white;
   text-align: center;
   width: 80%;
 }
 
-.btnok {
-  color: white;
+.btnok,
+.btnZatvori,
+.btnZatvoriObrve {
+  color: black;
   background-color: #ebe3d5;
   padding: 7px;
   border-radius: 5px;
@@ -337,7 +365,6 @@ label {
   height: fit-content;
   text-align: center;
   margin-top: 25px;
-  color: black;
 }
 
 .btnok:hover {
@@ -345,10 +372,37 @@ label {
   cursor: pointer;
 }
 
-.hidden {
+.hidden,
+.hiddenCjenovnik,
+.hiddenObrve {
   display: none;
 }
+
 .stop-scrolling {
   height: 100%;
   overflow: hidden;
+}
+
+.buttoni {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnCijene {
+  width: 90%;
+  border: none;
+  color: white;
+  background-color: #776b5d;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+td {
+  width: 100px;
 }
