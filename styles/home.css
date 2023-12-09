@@ -22,7 +22,7 @@
   background-color: #0f4c75;
   height: 275px;
   margin-top: 30px;
-  border-radius: 10px;
+  border-radius: 5px;
   background: black;
   position: relative;
   cursor: pointer;
@@ -60,7 +60,7 @@
   background-size: cover;
   opacity: 0.5;
   height: 250px;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .itemimg {
@@ -68,8 +68,8 @@
   background-size: cover;
   opacity: 0.5;
   height: 200px;
-  border-top-right-radius: 10px;
-  border-top-left-radius: 10px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
 }
 
 .iteminfo {

@@ -17,6 +17,13 @@ html {
   background-color: rgb(15, 15, 15);
 }
 
+.buttonList{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 90vh;
+}
+
 .header {
   width: 100%;
   height: 50px;
@@ -88,6 +95,7 @@ svg {
 .burger-links {
   display: flex;
   flex-direction: column;
+  height: 90vh;
 }
 
 .burger-toggle {
