@@ -24,6 +24,24 @@ html {
   height: 90vh;
 }
 
+.buttonList2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.version{
+  color: rgb(55, 55, 55);
+}
+
+.navImg{
+  filter: invert();
+  width: 150px;
+  text-align: center;
+  opacity: 0.5;
+}
+
+
 .header {
   width: 100%;
   height: 50px;
