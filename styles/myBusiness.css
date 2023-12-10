@@ -1,4 +1,4 @@
-.myAccountTitle {
+.title {
   font-size: 1.8rem;
   margin-left: auto;
   margin-right: auto;
@@ -22,20 +22,21 @@
   margin-right: auto;
 }
 
-.userImage {
-  height: 120px;
+.businessImage {
+  height: 240px;
   margin-top: 30px;
   margin-bottom: 10px;
+  border-radius: 5px;
 }
 
-.userName {
+.businessName {
   color: black;
   font-size: 1.4rem;
   font-weight: bold;
   margin-bottom: 20px;
 }
 
-.userButton {
+.businessButton {
   background-color: #ebe3d5;
   color: black;
   border: none;
@@ -43,9 +44,10 @@
   font-size: 1.2rem;
   width: 260px;
   height: 35px;
-  margin-top: 10px;
+  margin-top: 20px;
   cursor: pointer;
   position: relative;
+  margin-bottom: 20px;
 }
 
 .signOut {
@@ -56,7 +58,7 @@
   margin-bottom: 30px;
 }
 
-.userSvgIcon {
+.businessSvgIcon {
   position: absolute;
   left: 10%;
   top: 25%;
@@ -114,24 +116,10 @@
   background-color: #b0a695;
   border: none;
   border-radius: 10px;
-  height: 25px;
-  width: 25px;
+  height: 35px;
+  width: 35px;
   cursor: pointer;
   position: absolute;
-  top: 130px;
-  right: 0px;
-}
-
-.savecancel {
-  background-color: #b0a695;
-  border: none;
-  border-radius: 5px;
-  font-size: 1.2rem;
-  color: black;
-  cursor: pointer;
-  width: 120px;
-  height: 40px;
-  top: 130px;
-  right: 0px;
-  margin-bottom: 10px;
+  top: 230px;
+  right: 5px;
 }
