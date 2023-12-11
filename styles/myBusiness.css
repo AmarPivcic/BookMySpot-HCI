@@ -23,10 +23,12 @@
 }
 
 .businessImage {
-  height: 240px;
+  width: 90%;
   margin-top: 30px;
   margin-bottom: 10px;
   border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .businessName {
@@ -110,6 +112,7 @@
 
 .editContainer {
   position: relative;
+  display: flex;
 }
 
 .pictureBtn {
@@ -120,6 +123,6 @@
   width: 35px;
   cursor: pointer;
   position: absolute;
-  top: 230px;
-  right: 5px;
+  top: 195px;
+  right: 20px;
 }

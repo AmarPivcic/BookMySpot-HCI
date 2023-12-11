@@ -115,7 +115,6 @@
 .Cjenovnik {
   display: flex;
   flex-direction: column;
-  flex-direction: column;
   align-items: center;
   margin-left: auto;
   margin-right: auto;
@@ -149,6 +148,10 @@
 .tabelaVanSezonske,
 .tabelaSezonske {
   text-align: center;
+}
+
+.tabelaSezonske {
+  padding: 10px;
 }
 
 .VansezonskeCijene,
@@ -253,6 +256,8 @@ label {
   background-color: #776b5d;
   border-radius: 5px;
   border: none;
+  letter-spacing: 1px;
+  font-size: 0.9rem;
 }
 
 .comment {
@@ -292,11 +297,15 @@ label {
   border-radius: 5px;
   border: none;
   color: #151515;
+  letter-spacing: 1px;
+  font-size: 0.9rem;
 }
 
 .blur,
 .blurCjenovnik,
-.blurObrve {
+.blurObrve,
+.blurCjenovnikVanSezonske,
+.blurSezonske {
   position: absolute;
   height: 100vh;
   width: 100%;
@@ -317,6 +326,19 @@ label {
 .popupCjenovnik,
 .popupObrve {
   height: 250px;
+  width: 350px;
+  background-color: #776b5d;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.popupCjenovnikVansezonske,
+.popupSezonske {
+  height: 300px;
   width: 350px;
   background-color: #776b5d;
   border-radius: 20px;
@@ -356,12 +378,14 @@ label {
 
 .btnok,
 .btnZatvori,
-.btnZatvoriObrve {
+.btnZatvoriObrve,
+.btnZatvoriVanSezonske,
+.btnZatvoriSezonske {
   color: black;
   background-color: #ebe3d5;
-  padding: 7px;
+  padding: 5px;
   border-radius: 5px;
-  width: 60px;
+  width: 80px;
   height: fit-content;
   text-align: center;
   margin-top: 25px;
@@ -374,7 +398,9 @@ label {
 
 .hidden,
 .hiddenCjenovnik,
-.hiddenObrve {
+.hiddenObrve,
+.hiddenCjenovnikVanSezonske,
+.hiddenSezonske {
   display: none;
 }
 
@@ -383,11 +409,52 @@ label {
   overflow: hidden;
 }
 
+.CjenovnikBristol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  background-color: #ebe3d5;
+  margin-top: 20px;
+  width: 90%;
+  padding: 10px;
+}
+
+.CjenovnikBristol h3 {
+  color: black;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
 .buttoni {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
+}
+
+.buttoniBristol {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.btnCijeneBristol {
+  width: 100%;
+  border: none;
+  color: white;
+  background-color: #776b5d;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
 }
 
 .btnCijene {

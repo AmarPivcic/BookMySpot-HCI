@@ -1,3 +1,133 @@
+.blurCjenovnikVanSezonske,
+.blurSezonske {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(10px);
+  z-index: 1;
+}
+
+.checkmark {
+  color: #151515;
+  height: 45px;
+  width: 45px;
+  margin-bottom: 25px;
+}
+
+.popupCjenovnikVansezonske,
+.popupSezonske {
+  height: 300px;
+  width: 350px;
+  background-color: #776b5d;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.popuptext {
+  color: white;
+  text-align: center;
+  width: 80%;
+}
+
+.btnZatvoriVanSezonske,
+.btnZatvoriSezonske {
+  color: black;
+  background-color: #ebe3d5;
+  padding: 5px;
+  border-radius: 5px;
+  width: 80px;
+  height: fit-content;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.btnok:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.hiddenCjenovnikVanSezonske,
+.hiddenSezonske {
+  display: none;
+}
+
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}
+
+.CjenovnikBristol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  background-color: #ebe3d5;
+  margin-top: 20px;
+  width: 90%;
+  padding: 10px;
+}
+
+.CjenovnikBristol h3 {
+  color: black;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.buttoniBristol {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.btnCijeneBristol {
+  width: 100%;
+  border: none;
+  color: white;
+  background-color: #776b5d;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.VansezonskeCijene table {
+  margin-bottom: 10px;
+}
+
+.tabelaVanSezonske,
+.tabelaSezonske {
+  text-align: center;
+}
+
+.VansezonskeCijene,
+.SezonskeCijene {
+  padding: 10px;
+}
+
+.tabelaVanSezonske td,
+th,
+.tabelaSezonske td,
+th {
+  color: black;
+}
+
+td {
+  width: 100px;
+}
+
 .titleHotel {
   width: fit-content;
   margin-left: auto;
@@ -169,9 +299,13 @@ th {
 .dugmicZapocni {
   margin-top: 20px;
   margin-bottom: 20px;
+  width: 100%;
   background-color: #ebe3d5;
-  padding: 10px;
-  border: none;
   border-radius: 5px;
-  color: #151515;
+  border: none;
+  font-size: 0.9rem;
+  padding: 5px;
+  border-radius: 5px;
+  color: black;
+  letter-spacing: 1px;
 }

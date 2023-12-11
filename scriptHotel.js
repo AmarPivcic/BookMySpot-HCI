@@ -76,3 +76,33 @@ function showPopUpObrve() {
   body.classList.add("stop-scrolling");
   window.scrollTo(0, 0);
 }
+
+function closepopupCjenovnikVanSezonske() {
+  var blur = document.getElementById("blurCjenovnikVanSezonske");
+  var body = document.getElementById("body");
+  blur.classList.add("hiddenCjenovnikVanSezonske");
+  body.classList.remove("stop-scrolling");
+}
+function showPopUpVanSezonske() {
+  var blur = document.getElementById("blurCjenovnikVanSezonske");
+  var body = document.getElementById("body");
+
+  blur.classList.remove("hiddenCjenovnikVanSezonske");
+  body.classList.add("stop-scrolling");
+  window.scrollTo(0, 0);
+}
+
+function closepopupSezonske() {
+  var blur = document.getElementById("blurSezonske");
+  var body = document.getElementById("body");
+  blur.classList.add("hiddenSezonske");
+  body.classList.remove("stop-scrolling");
+}
+function showPopUpSezonske() {
+  var blur = document.getElementById("blurSezonske");
+  var body = document.getElementById("body");
+
+  blur.classList.remove("hiddenSezonske");
+  body.classList.add("stop-scrolling");
+  window.scrollTo(0, 0);
+}
