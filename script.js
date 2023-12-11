@@ -119,6 +119,22 @@ function login() {
   }
 }
 
+
+var email = document.getElementById("user_email");
+
+function ValidateEmail()
+{
+var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+if(email.value.match(mailformat))
+{
+  register();
+}
+else
+{
+  email.style.borderColor="red";
+}
+}
+
 function register() {
   alert("Uspješno ste napravili account!");
   htmlFilePath = "./User/user.html";
