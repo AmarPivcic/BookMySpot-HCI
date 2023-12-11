@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Help</title>
-    <link rel="stylesheet" href="./styles/style.css" />
-    <link rel="stylesheet" href="./styles/help.css" />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="stylesheet" href="../styles/help.css" />
   </head>
 
   <body>
@@ -17,7 +17,7 @@
         <div class="burger-links">
           <div class="buttonList">
             <div>
-              <a href="./NoUser/index.html"
+              <a href="../Admin/admin.html"
                 ><button class="menubtn">
                   <div class="svgIcon">
                     <svg
@@ -37,7 +37,25 @@
                   <p class="menuP">Početna</p>
                 </button></a
               >
-              <a href="./prijava.html"
+              <button class="menubtn">
+                <div class="svgIcon">
+                  <svg
+                    style="fill: black; margin-right: 10px"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    fill="currentColor"
+                    class="bi bi-person"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"
+                    />
+                  </svg>
+                </div>
+                <p class="menuP">Moj račun</p>
+              </button>
+              <a href="../Admin/managerRacuna.html"
                 ><button class="menubtn">
                   <div class="svgIcon">
                     <svg
@@ -46,18 +64,18 @@
                       width="20"
                       height="20"
                       fill="currentColor"
-                      class="bi bi-person"
+                      class="bi bi-people"
                       viewBox="0 0 16 16"
                     >
                       <path
-                        d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"
+                        d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8Zm-7.978-1A.261.261 0 0 1 7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002a.274.274 0 0 1-.014.002H7.022ZM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816ZM4.92 10A5.493 5.493 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275ZM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0Zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4Z"
                       />
                     </svg>
                   </div>
-                  <p class="menuP">Prijava</p>
+                  <p class="menuP">Manager računa</p>
                 </button></a
               >
-              <a href="./settings.html"
+              <a href="../settings.html"
                 ><button class="menubtn">
                   <div class="svgIcon">
                     <svg
@@ -78,10 +96,33 @@
                     </svg>
                   </div>
                   <p class="menuP">Postavke</p>
-                </button>
-              </a>
-              <a href="./aboutUs.html">
-                <button class="menubtn">
+                </button></a
+              >
+              <a href="../Admin/pitanja.html"
+                ><button class="menubtn">
+                  <div class="svgIcon">
+                    <svg
+                      style="fill: black; margin-right: 10px"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      fill="currentColor"
+                      class="bi bi-question-circle"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"
+                      />
+                      <path
+                        d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94"
+                      />
+                    </svg>
+                  </div>
+                  <p class="menuP">Pitanja</p>
+                </button></a
+              >
+              <a href="../aboutUs.html"
+                ><button class="menubtn">
                   <div class="svgIcon">
                     <svg
                       style="fill: black; margin-right: 10px"
@@ -101,15 +142,13 @@
                     </svg>
                   </div>
                   <p class="menuP">O Nama</p>
-                </button>
-              </a>
+                </button></a
+              >
             </div>
-            <div>
-              <div class="buttonList2">
-                <img class="navImg" src="./images/BookMySpot.png" alt="" />
-                <p class="version">Verzija 1.0.0</p>
-              </div>
-            </div>
+          </div>
+          <div class="buttonList2">
+            <img class="navImg" src="../images/BookMySpot.png" alt="" />
+            <p class="version">Verzija 1.0.0</p>
           </div>
         </div>
       </div>
@@ -154,6 +193,9 @@
             </svg>
           </a>
         </p>
+      </div>
+      <div class="navSlider">
+        <div id="slider"></div>
       </div>
     </div>
 
@@ -383,6 +425,60 @@
               </svg>
             </div>
           </div>
+          <div class="chat-container">
+            <div class="chat-sender img">
+              <svg
+                style="margin-right: 5px"
+                xmlns="http://www.w3.org/2000/svg"
+                width="25"
+                height="25"
+                fill="currentColor"
+                class="bi bi-question-circle"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"
+                />
+                <path
+                  d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94"
+                />
+              </svg>
+            </div>
+            <div class="chat-sender msg">
+              <div class="flippd">
+                <strong>Pitanje</strong>
+                <div class="chatmsg black">
+                  Mogu li pregledavati fotografije smještaja ili radova salona
+                  ljepote prije rezervacije?
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="chat-container">
+            <div class="chat-respond msg">
+              <strong>Odgovor</strong>
+              <div class="chatmsg">
+                Da, aplikacija pruža galeriju fotografija smještaja ili salona
+                ljepote.
+              </div>
+            </div>
+            <div class="chat-respond img">
+              <svg
+                style="margin-left: 5px"
+                xmlns="http://www.w3.org/2000/svg"
+                width="25"
+                height="25"
+                fill="currentColor"
+                class="bi bi-reply"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M6.598 5.013a.144.144 0 0 1 .202.134V6.3a.5.5 0 0 0 .5.5c.667 0 2.013.005 3.3.822.984.624 1.99 1.76 2.595 3.876-1.02-.983-2.185-1.516-3.205-1.799a8.74 8.74 0 0 0-1.921-.306 7.404 7.404 0 0 0-.798.008h-.013l-.005.001h-.001L7.3 9.9l-.05-.498a.5.5 0 0 0-.45.498v1.153c0 .108-.11.176-.202.134L2.614 8.254a.503.503 0 0 0-.042-.028.147.147 0 0 1 0-.252.499.499 0 0 0 .042-.028l3.984-2.933zM7.8 10.386c.068 0 .143.003.223.006.434.02 1.034.086 1.7.271 1.326.368 2.896 1.202 3.94 3.08a.5.5 0 0 0 .933-.305c-.464-3.71-1.886-5.662-3.46-6.66-1.245-.79-2.527-.942-3.336-.971v-.66a1.144 1.144 0 0 0-1.767-.96l-3.994 2.94a1.147 1.147 0 0 0 0 1.946l3.994 2.94a1.144 1.144 0 0 0 1.767-.96v-.667z"
+                />
+              </svg>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -395,6 +491,6 @@
       />
       <button id="addButton">POŠALJI</button>
     </div>
-    <script src="./script.js"></script>
+    <script src="../script.js"></script>
   </body>
 </html>
