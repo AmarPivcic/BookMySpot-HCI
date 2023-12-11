@@ -1,0 +1,210 @@
+.titleFaq {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+  color: #ebe3d5;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.outerbg {
+  width: 100%;
+  max-width: 610px;
+  margin: 20px;
+  margin: 0 auto;
+  background: url("https://s24.postimg.org/63armx1h1/sahil_sahil_chatsbg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.chatboxout {
+  font-family: open sans;
+  font-size: 12px;
+  line-height: 17px;
+  box-sizing: border-box;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 10px;
+  background: #fff;
+  border-radius: 5px;
+  -webkit-box-shadow: 4px 4px 20px -1px rgba(59, 59, 59, 0.6);
+  -moz-box-shadow: 4px 4px 20px -1px rgba(59, 59, 59, 0.6);
+  box-shadow: 4px 4px 20px -1px rgba(59, 59, 59, 0.6);
+}
+
+.chatboxin {
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 5px 15px;
+}
+
+.chat-respond.msg {
+  -webkit-clip-path: polygon(12px 0, 100% 0, 100% 100%, 0 100%, 12px 70%);
+  clip-path: polygon(12px 0, 100% 0, 100% 100%, 0 100%, 12px 70%);
+  padding: 9px 9px;
+  padding-left: 21px;
+  background-color: #776b5d;
+  color: #fff;
+  box-sizing: border-box;
+  width: calc(100% - 53px);
+  margin-left: -9px;
+}
+
+.chatmsg {
+  margin-top: 5px;
+}
+
+.black {
+  color: rgb(15, 15, 15);
+}
+
+.chat-respond {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.chat-container {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  animation: fadein 2s;
+  -moz-animation: fadein 2s;
+  /* Firefox */
+  -webkit-animation: fadein 2s;
+  /* Safari and Chrome */
+  -o-animation: fadein 2s;
+  /* Opera */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chat-sender.msg {
+  -webkit-clip-path: polygon(12px 0, 100% 0, 100% 100%, 0 100%, 12px 70%);
+  clip-path: polygon(12px 0, 100% 0, 100% 100%, 0 100%, 12px 70%);
+  padding: 9px 9px;
+  padding-left: 21px;
+  background-color: #ebe3d5;
+  color: #333;
+  box-sizing: border-box;
+  width: calc(100% - 53px);
+  margin-right: -9px;
+  transform: scale(-1, 1);
+  -moz-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+}
+
+.chat-sender.msg strong {
+  color: rgba(20, 19, 19, 0.874);
+  font-weight: bolder;
+}
+
+.chat-sender {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.flippd {
+  width: 100%;
+  transform: scale(-1, 1);
+  -moz-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@-moz-keyframes fadein {
+
+  /* Firefox */
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@-webkit-keyframes fadein {
+
+  /* Safari and Chrome */
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@-o-keyframes fadein {
+
+  /* Opera */
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.new-question {
+  margin-bottom: 20px;
+}
+
+.new-question input {
+  padding: 5px;
+  width: 80%;
+  margin-left: 10%;
+  color: rgb(15, 15, 15);
+  border: none;
+  border-radius: 5px;
+  background-color: #ebe3d5;
+}
+
+input:focus {
+  outline: none;
+}
+
+.new-question button {
+  margin-left: 30%;
+  width: 40%;
+  color: #ebe3d5;
+  padding: 5px;
+  margin-top: 10px;
+  letter-spacing: 1px;
+  border: none;
+  border-radius: 5px;
+  background-color: #776b5d;
+  font-weight: bold;
+}
