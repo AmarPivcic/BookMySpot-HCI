@@ -1,7 +1,7 @@
 {
     "name": "BookMySpot",
     "description": "HCI Project app for making appointments",
-    "start_url": "./index.html",
+    "start_url": "index.html",
     "display": "standalone",
     "background_color": "#ebe3d5",
     "theme_color": "#ebe3d5",
