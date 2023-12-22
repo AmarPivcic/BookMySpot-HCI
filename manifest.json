@@ -1,0 +1,15 @@
+{
+    "name": "BookMySpot",
+    "description": "HCI Project app for making appointments",
+    "start_url": "./NoUser/index.html",
+    "display": "standalone",
+    "background_color": "#000000",
+    "theme_color": "#000000",
+    "icons": [
+      {
+        "src": "./images/BookMySpot.png",
+        "sizes": "600x400",
+        "type": "image/png"
+      }
+    ]
+  }

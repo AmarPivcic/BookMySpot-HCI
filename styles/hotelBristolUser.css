@@ -299,6 +299,8 @@ label {
   color: #151515;
   letter-spacing: 1px;
   font-size: 0.9rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .blur,
