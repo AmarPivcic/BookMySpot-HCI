@@ -5,6 +5,7 @@
     "display": "standalone",
     "background_color": "#ebe3d5",
     "theme_color": "#ebe3d5",
+    "scope": "/BookMySpot-HCI/",
     "icons": [
       {
         "src": "BookMySpot.png",
