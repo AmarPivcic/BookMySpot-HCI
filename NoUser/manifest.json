@@ -4,7 +4,7 @@
   "start_url": "index.html",
   "display": "standalone",
   "background_color": "#ebe3d5",
-  "theme_color": "#ebe3d5",
+  "theme_color": "#0f0f0f",
   "scope": "/BookMySpot-HCI/",
   "icons": [
     {
