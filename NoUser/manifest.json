@@ -7,7 +7,7 @@
     "theme_color": "#ebe3d5",
     "icons": [
       {
-        "src": "../images/BookMySpot.png",
+        "src": "./BookMySpot.png",
         "sizes": "600x400",
         "type": "image/png"
       }
