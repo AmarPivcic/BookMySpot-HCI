@@ -10,7 +10,8 @@
       {
         "src": "BookMySpot.png",
         "sizes": "300x200 60x40 600x400",
-        "type": "image/png"
+        "type": "image/png",
+        "purpose": "any"
       }       
     ]
   }
