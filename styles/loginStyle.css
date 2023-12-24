@@ -167,3 +167,9 @@ input {
   text-align: center;
   font-size: 14px;
 }
+
+.header p 
+{
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.6rem;
+}
