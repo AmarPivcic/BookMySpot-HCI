@@ -52,7 +52,7 @@
 }
 
 .serviceDetails p {
-  font-size: 19px;
+  font-size: 18px;
 }
 
 .serviceDescription {
@@ -71,14 +71,15 @@
 }
 
 .serviceBtns button {
-  width: 160px;
-  height: 30px;
-  font-size: 0.9rem;
-  border-radius: 5px;
   color: black;
+  width: 160px;
+  padding: 6px;
+  margin-top: 10px;
+  letter-spacing: 1px;
   border: none;
+  border-radius: 5px;
   background-color: #ebe3d5;
-  cursor: pointer;
+  font-size: 0.9rem;
 }
 
 .newServiceContainer {
