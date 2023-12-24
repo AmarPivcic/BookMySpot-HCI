@@ -1,110 +1,123 @@
 .title {
-    width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    font-size: 1.8rem;
-    letter-spacing: 1px;
-    color: #ebe3d5;
-  }
-
-.servicesContainer{
-    width: 90%;
-    margin-left: 5%;
-    background-color: #ebe3d5;
-    border-radius: 5px;
-    margin-top: 20px;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 30px;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+  color: #ebe3d5;
 }
 
-.service{
-    background-color: #776b5d;
-    width: 95%;
-    margin-left: 2.5%;
-    border-radius: 5px;
-    margin-top: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.servicesContainer {
+  width: 90%;
+  margin-left: 5%;
+  background-color: #ebe3d5;
+  border-radius: 5px;
+  margin-top: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
 }
 
-.service h3{
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
+.service {
+  background-color: #776b5d;
+  width: 95%;
+  margin-left: 2.5%;
+  border-radius: 5px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
-.serviceDetails{
-    display: flex;
-    width: 80%;
-    justify-content: space-between;
-    margin-bottom: 10px;
+.slika {
+  position: absolute;
+  top: 10px;
+  left: 10px;
 }
 
-.serviceDescription{
-    width: 80%;
-    margin-bottom: 10px;
+.service h2 {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-.serviceBtns{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 30px;
+.serviceDetails {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
 }
 
-.serviceBtns button{
-    width: 150px;
-    height: 30px;
-    font-size: 1rem;
-    border-radius: 5px;
-    color: black;
-    border: none;
-    background-color: #ebe3d5;
-    cursor: pointer;
+.serviceDetails p {
+  font-size: 19px;
 }
 
-.newServiceContainer{
-    background-color: #776b5d;
-    width: 90%;
-    margin-left: 5%;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    margin-top: 20px;
+.serviceDescription {
+  width: 90%;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.serviceBtns {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.serviceBtns button {
+  width: 160px;
+  height: 30px;
+  font-size: 0.9rem;
+  border-radius: 5px;
+  color: black;
+  border: none;
+  background-color: #ebe3d5;
+  cursor: pointer;
+}
+
+.newServiceContainer {
+  background-color: #776b5d;
+  width: 90%;
+  margin-left: 5%;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
 }
 
 .input-container {
-    position: relative;
-    margin-top: 10px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .small-label {
-    position: absolute;
-    top: 3px;
-    left: 27px;
-    font-size: 10px;
-    color: rgb(55, 55, 55);
-    pointer-events: none;
-  }
-  
-  .accountInput {
-    border: none;
-    padding: 10px;
-    width: 90%;
-    color: black;
-    border-radius: 5px;
-    font-size: 12pt;
-    background-color: #ebe3d5;
-  }
-  
-  .accountInput:focus {
-    outline: none;
-  }
+  position: relative;
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.small-label {
+  position: absolute;
+  top: 3px;
+  left: 27px;
+  font-size: 10px;
+  color: rgb(55, 55, 55);
+  pointer-events: none;
+}
+
+.accountInput {
+  border: none;
+  padding: 10px;
+  width: 90%;
+  color: black;
+  border-radius: 5px;
+  font-size: 12pt;
+  background-color: #ebe3d5;
+}
+
+.accountInput:focus {
+  outline: none;
+}

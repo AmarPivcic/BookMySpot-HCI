@@ -131,7 +131,6 @@
 }
 
 @-moz-keyframes fadein {
-
   /* Firefox */
   from {
     opacity: 0;
@@ -147,7 +146,6 @@
 }
 
 @-webkit-keyframes fadein {
-
   /* Safari and Chrome */
   from {
     opacity: 0;
@@ -163,7 +161,6 @@
 }
 
 @-o-keyframes fadein {
-
   /* Opera */
   from {
     opacity: 0;
@@ -198,13 +195,13 @@ input:focus {
 
 .new-question button {
   margin-left: 30%;
+  color: black;
   width: 40%;
-  color: #ebe3d5;
   padding: 5px;
   margin-top: 10px;
   letter-spacing: 1px;
   border: none;
-  border-radius: 10px;
-  background-color: #776b5d;
-  font-weight: bold;
+  border-radius: 5px;
+  background-color: #ebe3d5;
+  font-size: 0.9rem;
 }

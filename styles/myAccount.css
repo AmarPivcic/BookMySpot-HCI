@@ -123,14 +123,20 @@
 }
 
 .savecancel {
-  background-color: #b0a695;
+  background-color: #ebe3d5;
   height: 30px;
-  width: 120px;
+  width: 145px;
   border-radius: 5px;
   border: none;
   margin-bottom: 10px;
   color: black;
   cursor: pointer;
   letter-spacing: 1px;
-  font-size: 1rem;
+  font-size: 0.9rem;
+}
+
+.dugmad {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
 }
