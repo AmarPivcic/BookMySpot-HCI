@@ -197,14 +197,14 @@ input:focus {
 }
 
 .new-question button {
-  margin-left: 30%;
-  width: 40%;
-  color: #ebe3d5;
-  padding: 5px;
+  margin-left: 10%;
+  color: black;
+  width: 80%;
+  padding: 6px;
   margin-top: 10px;
   letter-spacing: 1px;
   border: none;
   border-radius: 5px;
-  background-color: #776b5d;
-  font-weight: bold;
+  background-color: #ebe3d5;
+  font-size: 0.9rem;
 }
