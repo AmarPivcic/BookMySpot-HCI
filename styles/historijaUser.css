@@ -46,8 +46,9 @@
 }
 
 .reservation2 {
+    margin-top: 10px;
     margin-right: 2%;
-    margin-left: 3%;
+    margin-left: 2%;
 }
 
 .profilePicAndName {
@@ -69,7 +70,9 @@
 }
 
 .btnZavrsena {
-    width: 100%;
+    width: 30%;
+    margin-left: 2%;
+    height: 25px;
     border: none;
     color: white;
     background-color: rgb(8, 160, 8);
@@ -78,12 +81,12 @@
     font-size: 1rem;
     cursor: pointer;
     margin-bottom: 5px;
-    padding-top: 6px;
-    padding-bottom: 6px;
 }
 
 .btnOtkazana {
-    width: 100%;
+    width: 30%;
+    margin-left: 2%;
+    height: 25px;
     border: none;
     color: white;
     background-color: rgb(165, 54, 54);
@@ -92,12 +95,12 @@
     font-size: 1rem;
     cursor: pointer;
     margin-bottom: 5px;
-    padding-top: 6px;
-    padding-bottom: 6px;
 }
 
 .btnOtkazi {
-    width: 100%;
+    width: 50%;
+    margin-left: 2%;
+    height: 25px;
     border: none;
     color: black;
     background-color: #ebe3d5;
@@ -106,12 +109,4 @@
     font-size: 1rem;
     cursor: pointer;
     margin-bottom: 5px;
-    padding-top: 6px;
-    padding-bottom: 6px;
-}
-
-.datum {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
 }
