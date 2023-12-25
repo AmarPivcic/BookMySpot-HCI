@@ -284,13 +284,6 @@ td {
   padding: 10px;
 }
 
-.tabelaVanSezonske td,
-th,
-.tabelaSezonske td,
-th {
-  color: black;
-}
-
 .divZaZapocniRezervaciju {
   display: flex;
   justify-content: center;
@@ -298,13 +291,12 @@ th {
 
 .dugmicZapocni {
   margin-top: 20px;
-  margin-bottom: 20px;
   width: 100%;
   background-color: #ebe3d5;
   border-radius: 5px;
   border: none;
   font-size: 0.9rem;
-  padding: 5px;
+  padding: 10px;
   border-radius: 5px;
   color: black;
   letter-spacing: 1px;

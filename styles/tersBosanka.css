@@ -179,10 +179,30 @@ th {
 
 .dugmicZapocni {
   margin-top: 20px;
-  margin-bottom: 20px;
+  width: 100%;
   background-color: #ebe3d5;
-  padding: 10px;
-  border: none;
   border-radius: 5px;
-  color: #151515;
+  border: none;
+  font-size: 0.9rem;
+  padding: 10px;
+  border-radius: 5px;
+  color: black;
+  letter-spacing: 1px;
 }
+
+.radnoVrijeme{
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  color: black;
+}
+
+.radnoVrijeme td, th
+{
+  color: black;
+}
+
+.radnoVrijeme thead th{
+  color: black;
+}
+
