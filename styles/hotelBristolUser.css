@@ -379,6 +379,12 @@ label {
   width: 80%;
 }
 
+.infoPopUp{
+  width:100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .btnok,
 .btnZatvori,
 .btnZatvoriObrve,

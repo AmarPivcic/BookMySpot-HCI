@@ -43,6 +43,7 @@ function showPopUp() {
 
   blur.classList.remove("hidden");
   body.classList.add("stop-scrolling");
+  window.scrollTo(0, 0);
 }
 
 
