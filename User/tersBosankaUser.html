@@ -375,8 +375,18 @@
 
     <div class="datumRez">
       <label for="appt">Vrijeme termina:</label>
-      <input type="time" id="datumRezP" name="appt" />
+      <select class="datumRezV" required>
+        <option value="" disabled selected></option>
+        <option>07:00 - 08:30</option>
+        <option>08:30 - 10:00</option>
+        <option>11:30 - 13:00</option>
+        <option>13:00 - 14:30</option>
+        <option>16:30 - 18:00</option>
+        <option>19:30 - 21:00</option>
+      </select>
     </div>
+
+  
 
     <div>
       <button class="buttonRezervisi" onclick="showPopUp()">Rezerviši</button>

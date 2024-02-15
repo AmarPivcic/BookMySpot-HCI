@@ -220,6 +220,11 @@ select {
   border-radius: 5px;
 }
 
+.datumRezV{
+  width: 60%;
+  height: 25px
+}
+
 #Email {
   width: 100%;
 }
@@ -234,6 +239,10 @@ option[value=""][disabled] {
 
 option {
   color: white;
+}
+
+.datumRez option{
+ text-align: center;
 }
 
 label {
